@@ -50,7 +50,7 @@ int	main(int ac, char **av)
 		return (1);
 	b = NULL;
 	ft_check_same(&a);
-	if (ft_lstsize(a) == 3 && !ft_lstsorted(a))
+	if (ft_lstsize(a) <= 3 && !ft_lstsorted(a))
 		ft_three_case(&a);
 	else if (ft_lstsize(a) > 3 && !ft_lstsorted(a))
 		ft_do(&a, &b);
