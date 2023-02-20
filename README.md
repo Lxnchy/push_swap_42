@@ -1,4 +1,5 @@
 Mean for list of size 100 : ~580 operations
+
 Mean for list of size 500 : ~4500 operations
 
 My push_swap is extremely slow because it calculates all valid moves for each move made and chooses the best move to make.
