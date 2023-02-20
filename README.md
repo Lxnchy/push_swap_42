@@ -1,4 +1,4 @@
-Mean for list of size 100 : ~580 operations
+Mean for list of size 100 : ~570 operations
 
 Mean for list of size 500 : ~4500 operations
 
